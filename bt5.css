@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 320px;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.container .header {
+    background: red;
+    color: white;
+    font-size: 20px;
+    padding: 15px;
+    position: relative;
+}
+
+.container .header .icon {
+    background: yellow;
+    color: red;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 3px 7px;
+    border-radius: 5px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.container .body {
+    padding: 15px;
+}
+
+.container .body p {
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+.container .body .highlight {
+    color: orange;
+    font-weight: bold;
+}
+
+.container .body .note {
+    font-style: italic;
+    color: gray;
+}
+
+.container .footer {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container .footer .register-btn {
+    background: red;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.container .footer .register-btn i {
+    margin-right: 5px;
+}
+
+.container .footer .details-btn {
+    background: white;
+    color: red;
+    border: 1px solid red;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 14px;
+}

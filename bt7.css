@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.container .form-container{
+    background-color: white;
+    border-radius: 8px;
+    width: 500px;
+    padding: 20px 24px 46px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.container .form-container .form-header{
+    position: relative;
+}
+
+.form-container .form-header .form-heading{
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.container .form-container .form-header .icon-close{
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+}
+
+.container .form-container .diven{
+    border: 1px solid gray;
+    margin: 20px 0;
+}
+
+.container .form-container .form-body{
+    
+}
+
+.container .form-container .form-body .form-group{
+    margin-bottom: 24px;
+}
+
+.container .form-container .form-body .form-group .form-label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+.container .form-container .form-body .form-group .text-input{
+    width: 100%;
+    margin-left:4px;
+    border-radius: 8px;
+    padding: 7px;
+    border: 1px solid gray;
+}
+
+.container .form-container .form-body .form-group .textarea{
+    width: 100%;
+    margin-left: 4px;   
+    padding: 15px;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.container .form-container .form-footer{
+   position: absolute;
+   right:20px;
+   bottom: 18px;
+}
+
+.container .form-container .form-footer .close-button{
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+    background-color: #6C757D;
+}
+
+.container .form-container .form-footer .send-button{
+    padding: 10px ;
+    border-radius: 8px;
+    border: 1px solid white;
+    color: white;
+    background-color: #0D6EFD;
+}
